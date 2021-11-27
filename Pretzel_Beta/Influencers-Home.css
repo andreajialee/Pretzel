@@ -1,0 +1,80 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: HumanSans-Black;
+  font-size: 2.25rem;
+  text-align: center;
+  width: 782px;
+  margin: 33px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: HumanSans-Regular;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  width: 765px;
+  margin: 33px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  border-style: solid;
+  font-family: HumanSans-Medium;
+  text-transform: uppercase;
+  font-weight: normal;
+  align-self: center;
+  text-align: center;
+  background-image: none;
+  margin: 32px auto 60px;
+  padding: 5px 33px 6px 31px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+}@font-face {
+  font-family: 'HumanSans-Black';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HumanSans-Black.otf);
+}@font-face {
+  font-family: 'HumanSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HumanSans-Regular.otf);
+}@font-face {
+  font-family: 'HumanSans-Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/HumanSans-Medium.otf);
+}
